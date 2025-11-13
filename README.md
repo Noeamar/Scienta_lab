@@ -114,5 +114,3 @@ Using the union of 85 STABL-selected genes, I trained a final XGBoost model:
 - **Healthy (0):** perfectly predicted (100/100).
 - **RA (1):** strong recall (1.00) but moderate precision.
 - **SLE (2):** most errors → many SLE predicted as RA.
-
-Confusion matrix:
