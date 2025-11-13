@@ -1,0 +1,2 @@
+,ROC AUC,Average Precision,N features,CVS
+STABL RandomForest,"0.495 [0.476, 0.515]","0.472 [0.451, 0.495]","21.000 [19.000, 24.000]","0.210 [0.171, 0.250]"
