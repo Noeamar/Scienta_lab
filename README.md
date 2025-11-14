@@ -114,3 +114,5 @@ Using the union of 85 STABL-selected genes, I trained a final XGBoost model:
 - **Healthy (0):** perfectly predicted (100/100).
 - **RA (1):** strong recall (1.00) but moderate precision.
 - **SLE (2):** most errors → many SLE predicted as RA.
+
+We could have use the shap values to help interprate the features but I didn't find a good version of shap that didn't have a conflict with the requirements. So that is another way to look at feature importance and to plot graphs to analyze features.
